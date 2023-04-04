@@ -11,7 +11,7 @@ class GooglePlacesAPIScreen extends StatefulWidget {
 
 class _GooglePlacesAPIScreenState extends State<GooglePlacesAPIScreen> {
   TextEditingController _controller = TextEditingController();
-  var uuid = Uuid();
+  // var uuid = Uuid();
   String sessionToken = '12345';
 
   @override
